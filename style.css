@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('fonts/subset-MyriadPro-Regular.eot');
+    src: url('fonts/subset-MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-MyriadPro-Regular.woff2') format('woff2'),
+        url('fonts/subset-MyriadPro-Regular.woff') format('woff'),
+        url('fonts/subset-MyriadPro-Regular.ttf') format('truetype'),
+        url('fonts/subset-MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/subset-SourceSansPro-Regular.eot');
+    src: url('fonts/subset-SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-SourceSansPro-Regular.woff2') format('woff2'),
+        url('fonts/subset-SourceSansPro-Regular.woff') format('woff'),
+        url('fonts/subset-SourceSansPro-Regular.ttf') format('truetype'),
+        url('fonts/subset-SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body
+{
+	margin: 0;
+	font-family: 'Myriad Pro';
+}
+
+.header
+{	
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo
+{
+	margin-left: 152px;
+	font-size: 42px;
+	display: flex;
+	align-items: center;
+}
+.quotes
+{
+	font-family: 'Source Sans Pro';
+	font-size: 64px;
+	margin-right: 27px;
+}
+.nav
+{
+	margin-right: 162px;
+	font-size: 20px;
+}
+.list
+{
+	list-style: none;
+}
+.first-item
+{
+	margin-left: 0;
+}
+.item
+{
+	display: inline;
+	margin-left: 40px;
+}
+.link
+{
+	color: #6c6c6c;
+	text-decoration: none;
+	padding-bottom: 51px;
+}
+.link:hover
+{
+	border-bottom: 5px solid #5094f2;
+}
+.link:active
+{
+	border-bottom: 5px solid #5094f2;
+}
+.content
+{
+	background-image: url(images/dsfsdfsdfds.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding-bottom: 50px;
+	color: white;
+	padding-left: 177px;
+}
+.Iphone
+{
+	margin-top: 65px;
+	float: left;
+}
+.text
+{
+	line-height: 44.42px;
+	margin-right: 232px;
+	font-size: 26px;
+	padding-top: 153px;
+	float: right;
+}
+.Lorem
+{
+	font-size: 42px;
+}
+.clearfix
+{
+	clear: both;
+}
+.icons
+{
+	text-align: center;
+	
+}
+.icon
+{
+	margin-top: 112px;
+	display: inline-block;
+}
+.p1
+{
+	font-size: 20px;
+	color: #5094f2;
+}
+.p2
+{
+	margin-right: 10%;
+	margin-left: 10%;
+	font-size: 14px;
+	color: #909090;
+}
+.cart
+{
+	color: #6f7173;
+	font-size: 42px;
+	margin-left: 168px;
+}
+.footer
+{
+	border-top: 1px solid #e5e5e5;
+	text-align: center;
+	padding-top: 34px;
+	padding-bottom: 45px;
+}
+.footer-p
+{
+	color: #909090;
+	font-size: 15px;
+	line-height: 20px;
+}
